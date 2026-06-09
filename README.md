@@ -1,10 +1,11 @@
 <h1 align="left">Olá, seja bem-vindo! 👋</h1>
 <p align="left">Meu nome é <strong>Marcos Henrique Santos Lacerda</strong>.</p>
 <p align="left">
-  <img src="https://img.shields.io/badge/Curso-Engenharia%20de%20Software-orange?style=flat-square" alt="Curso">
-  <img src="https://img.shields.io/badge/Instituição-PUC%20Minas-red?style=flat-square" alt="Instituição">
+  <img src="https://img.shields.io/badge/Curso-Engenharia%20de%20Software-FFF?style=for-the-badge&logo=githubactions&logoColor=orange&labelColor=23272A" alt="Curso">
+  <img src="https://img.shields.io/badge/Instituição-PUC%20Minas-FFF?style=for-the-badge&logo=education&logoColor=red&labelColor=23272A" alt="Instituição">
 </p>
 <br>
+
 ###
 
 <div align="left">
@@ -32,10 +33,12 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph.svg">
-</picture>
+<div align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph.svg" width="60%">
+  </picture>
+</div>
 
 ###
