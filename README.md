@@ -3,8 +3,8 @@
   <p>Meu nome é <strong>Marcos Henrique Santos Lacerda</strong></p>
 
   <p>
-    <img src="https://img.shields.io/badge/Engenharia%20de%20Software-Formação%20Acadêmica-64B5F6?style=for-the-badge&logo=codefactor&logoColor=white" alt="Curso">
-    <img src="https://img.shields.io/badge/PUC%20Minas-Conhecimento%20&%20Inovação-A31D1D?style=for-the-badge&logo=education&logoColor=white" alt="Instituição">
+    <img src="https://img.shields.io/badge/Engenharia%20de%20Software-Graduação%20em%20Andamento-64B5F6?style=for-the-badge&logo=codefactor&logoColor=white" alt="Curso">
+    <img src="https://img.shields.io/badge/PUC%20Minas-Conhecimento%20%26%20Inovação-A31D1D?style=for-the-badge&logo=googleclassroom&logoColor=white" alt="Instituição">
   </p>
 </div>
 
@@ -31,19 +31,23 @@
 ### 🌐 Redes Sociais e Contato
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/marcos-lacerda-a28661415/" target="_blank">
+
+  <a href="https://marcossantoslacerda.github.io/contato" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="35" alt="linkedin logo" />
   </a>
 
-  <a href="mailto:mslacerda.dev@gmail.com">
+  <a href="https://marcossantoslacerda.github.io/contato" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=for-the-badge" height="35" alt="gmail logo" />
   </a>
 
-  <a href="https://www.instagram.com/marcossantoslacerda/" target="_blank">
+  <a href="https://marcossantoslacerda.github.io/contato" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge" height="35" alt="instagram logo" />
   </a>
 
-  <img src="https://img.shields.io/static/v1?message=Discord%20%7C%20marcolamoskov&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" alt="discord logo" />
+  <a href="https://marcossantoslacerda.github.io/contato" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="35" alt="discord logo" />
+  </a>
+
 </div>
 
 ---
