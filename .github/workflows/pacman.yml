@@ -1,0 +1,24 @@
+name: Generate Pacman Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Roda automaticamente todos os dias à meia-noite
+  workflow_dispatch: # Permite que você clique no botão para rodar manualmente
+  push:
+    branches:
+      - main # Roda automaticamente sempre que atualizar a branch main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: GitHub Metrics Pacman
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-pacman.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          config_order: lines
