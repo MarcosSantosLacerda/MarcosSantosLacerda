@@ -1,0 +1,25 @@
+name: Generate Pacman Metrics
+
+on:
+  # Executa automaticamente a cada 24 horas
+  schedule:
+    - cron: "0 0 * * *"
+  # Permite rodar manualmente a qualquer momento
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Pacman Animation
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-plugin-anilist-characters.svg # Nome temporário padrão
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: no
+          # Configuração específica do animação do Pacman
+          plugin_lines: yes
+          config_order: lines
