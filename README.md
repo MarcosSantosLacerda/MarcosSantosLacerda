@@ -39,8 +39,10 @@
 
 ---
 
-### 👾 Meu Gráfico de Contribuições (Pacman)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/pacman-output/pacman-contribution-graph.svg">
+</picture>
 
-<div align="center">
-  <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/main/github-metrics-pacman.svg" width="100%">
-</div>
+###
