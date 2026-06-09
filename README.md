@@ -54,6 +54,6 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/output/github-contribution-grid-pacman-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/output/github-contribution-grid-pacman.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/output/github-contribution-grid-pacman.svg" width="100%">
+    <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/output/github-contribution-grid-pacman.svg" width="100%">
   </picture>
 </div>
