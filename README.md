@@ -42,5 +42,5 @@
 ### 👾 Meu Gráfico de Contribuições (Pacman)
 
 <div align="center">
-  <img alt="Pacman Laberinto" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/main/github-metrics-pacman.svg" width="100%">
+  <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/MarcosSantosLacerda/MarcosSantosLacerda/main/github-metrics-pacman.svg" width="100%">
 </div>
