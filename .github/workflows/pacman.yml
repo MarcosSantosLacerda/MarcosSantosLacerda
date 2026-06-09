@@ -1,25 +1,25 @@
-name: Generate Pacman Metrics
+name: Generate Datas
 
 on:
-  # Executa automaticamente a cada 24 horas
   schedule:
-    - cron: "0 0 * * *"
-  # Permite rodar manualmente a qualquer momento
+    - cron: "0 0 * * *"   
   workflow_dispatch:
+  push:
+    branches:
+    - main
 
 jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
+  generate:
+    permissions: 
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
     steps:
-      - name: Generate Pacman Animation
-        uses: lowlighter/metrics@latest
+      - name: generate github-contribution-grid-pacman.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          filename: github-metrics-plugin-anilist-characters.svg # Nome temporário padrão
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_languages: no
-          # Configuração específica do animação do Pacman
-          plugin_lines: yes
-          config_order: lines
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-pacman.svg
+            dist/github-contribution-grid-pacman-dark.svg?palette=github-dark-orange
